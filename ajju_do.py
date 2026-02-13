@@ -47,6 +47,29 @@ DEFAULT_DOWNLOAD_PATH = get_windows_download_folder()
 def ffmpeg_available():
     return shutil.which("ffmpeg") is not None
 
+# ================= AUTO INSTALL FFMPEG =================
+def auto_install_ffmpeg():
+    if ffmpeg_available():
+        return
+
+    console.print("[yellow]FFmpeg not found. Installing automatically...[/yellow]")
+
+    try:
+        if os.name == "nt":  # Windows
+            # Try winget
+            subprocess.run(["winget", "install", "-e", "--id", "Gyan.FFmpeg"], check=True)
+        elif sys.platform == "darwin":  # macOS
+            subprocess.run(["brew", "install", "ffmpeg"], check=True)
+        else:  # Linux
+            subprocess.run(["sudo", "apt", "install", "-y", "ffmpeg"], check=True)
+
+        console.print("[bold green]FFmpeg installed successfully![/bold green]\n")
+
+    except Exception as e:
+        console.print("[bold red]Automatic FFmpeg installation failed.[/bold red]")
+        console.print("Please install FFmpeg manually and restart the program.\n")
+
+
 
 # ================= LOGO =================
 def print_logo():
@@ -148,6 +171,8 @@ def main():
         return
 
     print_logo()
+
+    auto_install_ffmpeg()
 
     if not ffmpeg_available():
         console.print("[yellow]Warning: FFmpeg not found. Audio merging may not work.[/yellow]\n")
