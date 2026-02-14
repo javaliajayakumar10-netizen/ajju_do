@@ -135,12 +135,12 @@ git clone https://github.com/your-username/Ajju-do.git
 
 # Move to project folder
 ```bash
-cd Ajju-do**
+cd Ajju-do
 ```
 
 # Install locally
 ```python
-pip install .**
+pip install .
 ```
 
 # Run
