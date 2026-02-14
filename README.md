@@ -31,7 +31,7 @@ FFmpeg (required for MP3 conversion and merging)
 
 ```bash
 git clone https://github.com/javaliajayakumar10-netizen/ajju_do.git
-cd ajju
+cd ajju_do
 pip install .
 ```
 ### Run from anywhere:
