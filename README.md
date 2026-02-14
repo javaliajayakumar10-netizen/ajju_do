@@ -40,7 +40,7 @@ pip install .
 **Option 2 — Run Directly:**
 ```bash
 git clone  https://github.com/javaliajayakumar10-netizen/ajju_do.git
-cd ajju
+cd ajju_do
 python -m ajju_do.py
 ```
 
