@@ -106,13 +106,14 @@ ffmpeg -version
 ```
 
 # 📂 Project Structure:
-`Ajju-do/
+```
+Ajju-do/
 │
 ├── ajju_do.py
 |__ setup.py
 |__ ajju.bat
 └── README.md
-`
+```
 
 # ⚙️ Built With:
 - yt-dlp – YouTube downloading engine
@@ -151,4 +152,4 @@ After installation, you can run the tool globally from any directory using:
 `ajju`
 
 # 📜 License:
-**Developed By `Javali Ajayakumar`** 
+**Developed By `Javali Ajayakumar`** | © 2026 AJJU YT Downloader. All rights reserved.
