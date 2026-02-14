@@ -47,7 +47,9 @@ python -m ajju_do.py
 ### 2️⃣ Install Python (if not installed)
 
 **Download from:**
-`https://www.python.org/downloads/`
+```bash
+https://www.python.org/downloads/`
+```
 
 **Verify installation:**
 ```bash
@@ -130,12 +132,12 @@ FFmpeg must be installed separately for audio conversion.**
 # Global CLI Setup (Windows)
 # Clone repo
 ```bash
-git clone https://github.com/your-username/Ajju-do.git
+git clone https://github.com/javaliajayakumar10-netizen/ajju_do.git
 ```
 
 # Move to project folder
 ```bash
-cd Ajju-do
+cd Ajju_do
 ```
 
 # Install locally
