@@ -30,7 +30,7 @@ FFmpeg (required for MP3 conversion and merging)
 **Option 1 — Install Globally (Recommended):**
 
 ```bash
-git clone https://github.com/Ajay-do/ajju.git
+git clone https://github.com/javaliajayakumar10-netizen/ajju_do.git
 cd ajju
 pip install .
 ```
@@ -39,7 +39,7 @@ pip install .
 
 **Option 2 — Run Directly:**
 ```bash
-git clone https://github.com/your-username/ajju.git
+git clone  https://github.com/javaliajayakumar10-netizen/ajju_do.git
 cd ajju
 python -m ajju_do.py
 ```
