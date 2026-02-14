@@ -1,24 +1,26 @@
-# 🚀 AJJU – YT Downloader PRO
+#  AJJU – YT Downloader PRO
 
 **A powerful command-line YouTube downloader built with Python, powered by yt-dlp, and enhanced with a beautiful terminal UI using rich.**
 
 # AJJU allows you to download:
 
+```
 **🎥 Videos in multiple resolutions (1080p, 720p, 480p)
 🎵 Audio-only (MP3 format)
 📂 Full playlists
 📊 Real-time download progress bar
-📁 Automatic save to your Downloads folder**
-
+📁 Automatic save to your Downloads folder
+```
 # 📌 Features:
 
-**✅ Automatic dependency installation
-✅ Playlist detection
-✅ Resolution selector
-✅ MP3 audio extraction (requires FFmpeg)
-✅ Clean progress UI with speed & time remaining
-✅ Saves files automatically to Downloads/**
-
+```
+- Automatic dependency installation
+- Playlist detection
+- Resolution selector
+- MP3 audio extraction (requires FFmpeg)
+- Clean progress UI with speed & time remaining
+- Saves files automatically to Downloads/
+```
 # 🛠 Requirements:
 ```
 Python 3.8+
@@ -154,4 +156,4 @@ After installation, you can run the tool globally from any directory using:
 `ajju`
 
 # 📜 License:
-**Developed By `Javali Ajayakumar`** | © 2026 AJJU YT Downloader. All rights reserved.
+**Developed By `Javali Ajayakumar`** | © 2026 **AJJU YT Downloader PRO.** All rights reserved.
