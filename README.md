@@ -5,22 +5,20 @@
 # AJJU allows you to download:
 
 ```
-**🎥 Videos in multiple resolutions (1080p, 720p, 480p)
+🎥 Videos in multiple resolutions (1080p, 720p, 480p)
 🎵 Audio-only (MP3 format)
 📂 Full playlists
 📊 Real-time download progress bar
 📁 Automatic save to your Downloads folder
 ```
 # 📌 Features:
-
-```
 - Automatic dependency installation
 - Playlist detection
 - Resolution selector
 - MP3 audio extraction (requires FFmpeg)
 - Clean progress UI with speed & time remaining
 - Saves files automatically to Downloads/
-```
+
 # 🛠 Requirements:
 ```
 Python 3.8+
