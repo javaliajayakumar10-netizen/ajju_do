@@ -71,7 +71,7 @@ python ajju.py
 
 **🔎 Check Version:**
 ```bash
-python ajju_do.py --version
+ajju --version
 ```
 
 # 🎯 How to Use:
@@ -140,7 +140,7 @@ git clone https://github.com/javaliajayakumar10-netizen/ajju_do.git
 
 # Move to project folder
 ```bash
-cd Ajju_do
+cd ajju_do
 ```
 
 # Install locally
