@@ -82,13 +82,14 @@ ajju --version
 - **n → download single video**
 
 ### Select quality:
-- Option	Quality
+```
+Option	Quality
 1	Best (Auto)
 2	1080p
 3	720p
 4	480p
 5	Audio Only (MP3)
-
+```
 **Wait for download to complete**
 
 Files will be saved in:
