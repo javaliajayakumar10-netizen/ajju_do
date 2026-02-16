@@ -135,28 +135,28 @@ Internet connection required.
 FFmpeg must be installed separately for audio conversion.**
 
 # 🎯 Recommended for GitHub Users:**
-# Global CLI Setup (Windows)
-# Clone repo
+**Global CLI Setup (Windows)**
+**Clone repo**
 ```bash
 git clone https://github.com/javaliajayakumar10-netizen/ajju_do.git
 ```
 
-# Move to project folder
+**Move to project folder**
 ```bash
 cd ajju_do
 ```
 
-# Install locally
+**Install locally**
 ```python
 pip install .
 ```
 
-# Run
+**Run**
 ```bash
 ajju
 ```
 
-After installation, you can run the tool globally from any directory using:
+**After installation, you can run the tool globally from any directory using:**
 `ajju`
 
 # 📜 License:
