@@ -38,7 +38,9 @@ cd ajju_do
 pip install .
 ```
 ### Run from anywhere:
-`ajju`
+```bash
+ajju
+```
 
 **Option 2 — Run Directly:**
 ```bash
