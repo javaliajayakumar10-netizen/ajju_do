@@ -3,9 +3,7 @@
 **A powerful command-line YouTube downloader built with Python, powered by yt-dlp, and enhanced with a beautiful terminal UI using rich.**
 
 #  AJJU – YT Downloader PRO - Documentation:
-```
 https://ajju-docs.netlify.app/
-```
 
 # AJJU allows you to download:
 
